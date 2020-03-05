@@ -19,7 +19,7 @@
     "node.js"
   ],
   "author": "Blanc Adrien",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^13.7.6",
     "ts-node": "^8.6.2",
