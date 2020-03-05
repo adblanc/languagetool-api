@@ -1,0 +1,32 @@
+{
+  "name": "@ablanc/language-tool-api",
+  "version": "1.0.0",
+  "description": "Node.js language tool api wrapper",
+  "main": "lib/index.js",
+  "files": [
+    "lib/*"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "echo \"Error: no test specified\"",
+    "build": "tsc",
+    "start": "tsc && node lib/index.js",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "keywords": [
+    "corrector",
+    "typescript",
+    "node.js"
+  ],
+  "author": "Blanc Adrien",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.7.6",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "got": "^10.6.0"
+  }
+}
