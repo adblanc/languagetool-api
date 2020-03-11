@@ -11,5 +11,4 @@ const getLanguages = async(): Promise<ILang[]> => {
 	return await got(`${apiUrl}/languages`).json();
 }
 
-
 export default getLanguages;

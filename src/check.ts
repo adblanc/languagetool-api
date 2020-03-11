@@ -1,6 +1,5 @@
 import got from "got";
 import {apiUrl} from "../config.json";
-import getLanguage from "./langs";
 import langs from "../langs.json";
 
 export interface IParams {
